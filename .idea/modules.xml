@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\yzkstudio\dph_kjj\app\app.iml" filepath="E:\yzkstudio\dph_kjj\app\app.iml" />
       <module fileurl="file://E:\asWorkSpace\kj\app\app.iml" filepath="E:\asWorkSpace\kj\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kj.iml" filepath="$PROJECT_DIR$/kj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dph_kjj.iml" filepath="$PROJECT_DIR$/.idea/dph_kjj.iml" />
       <module fileurl="file://E:\asWorkSpace\kj\kj.iml" filepath="E:\asWorkSpace\kj\kj.iml" />
+      <module fileurl="file://E:\yzkstudio\dph_kjj\kj.iml" filepath="E:\yzkstudio\dph_kjj\kj.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_sweetdialog/library_sweetdialog.iml" filepath="$PROJECT_DIR$/library_sweetdialog/library_sweetdialog.iml" />
+      <module fileurl="file://E:\yzkstudio\dph_kjj\library_sweetdialog\library_sweetdialog.iml" filepath="E:\yzkstudio\dph_kjj\library_sweetdialog\library_sweetdialog.iml" />
       <module fileurl="file://E:\asWorkSpace\kj\library_sweetdialog\library_sweetdialog.iml" filepath="E:\asWorkSpace\kj\library_sweetdialog\library_sweetdialog.iml" />
     </modules>
   </component>
