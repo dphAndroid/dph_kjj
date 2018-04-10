@@ -8,7 +8,7 @@ import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.Toolbar;
 
-import kj.dph.com.base.BaseActivity2016;
+import kj.dph.com.base.BaseActivity;
 import kj.dph.com.util.logUtil.LogUtil;
 
 
@@ -46,8 +46,8 @@ public class StatusBarCompat {
             int currentapiVersion = Build.VERSION.SDK_INT;
             LogUtil.d("当前系统版本", currentapiVersion + "");
             //获取当前界面
-            if(BaseActivity2016.class.isAssignableFrom(activity.getClass())){
-                BaseActivity2016 baseEmptyActivity2016= (BaseActivity2016) activity;
+            if(BaseActivity.class.isAssignableFrom(activity.getClass())){
+                BaseActivity baseEmptyActivity2016= (BaseActivity) activity;
                 String titleStr=baseEmptyActivity2016.getTopTitle();
                 LogUtil.d("当前设置界面", activity + "┈"+titleStr);
             }else{

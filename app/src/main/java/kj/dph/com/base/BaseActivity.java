@@ -57,7 +57,7 @@ import retrofit2.Response;
  * 作者：wxw on 2016/7/15 15:58
  * 邮箱：1069289509@qq.com
  */
-public class BaseActivity2016 extends RxAppCompatActivity implements HttpOnNextListener {
+public class BaseActivity extends RxAppCompatActivity implements HttpOnNextListener {
     protected final String TAG = getClass().getSimpleName();
     @BindColor(R.color.blue)
     public int blue;
@@ -79,7 +79,7 @@ public class BaseActivity2016 extends RxAppCompatActivity implements HttpOnNextL
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        InternetHelper.getNetworkIsConnected(BaseActivity2016.this, 1);
+        InternetHelper.getNetworkIsConnected(BaseActivity.this, 1);
         // 判断当前界面对应的是哪一个活动
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);

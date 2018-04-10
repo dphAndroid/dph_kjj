@@ -27,10 +27,7 @@ public class DemoAdapter extends CommonAdapter<String> {
 
     @Override
     protected void convert(ViewHolder holder, String bean, int i) {
-        CircularImage iv_health_pic = holder.getView(R.id.iv_health_pic);
-        TextView tv_hospitals_type = holder.getView(R.id.tv_hospitals_type);
 
-        holder.setText(R.id.tv_health_jf, bean);
-//        ImageLoaderProxy.getInstance().displayImage(context, bean.picture, iv_health_pic);
+        holder.setText(R.id.tv_title, bean);
     }
 }

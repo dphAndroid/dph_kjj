@@ -147,7 +147,7 @@ public abstract class BaseFragment extends Fragment implements HttpOnNextListene
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         InternetHelper.getNetworkIsConnected(getActivity(), 1);
-        LogUtil.i("BaseActivity2016", getClass().getSimpleName());
+        LogUtil.i("BaseActivity", getClass().getSimpleName());
         _context = getActivity();
         intent = new Intent();
         setCustomLayout(savedInstanceState);

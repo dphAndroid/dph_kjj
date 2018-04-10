@@ -4,12 +4,12 @@ import android.os.Bundle
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import kj.dph.com.R
-import kj.dph.com.base.BaseActivity2016
+import kj.dph.com.base.BaseActivity
 import kj.dph.com.ui.adapter.DemoAdapter
 import kj.dph.com.widget.refreshlayout.RefreshLayout
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : BaseActivity2016(), RefreshLayout.OnRefreshListener {
+class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
 
 
     var list: ArrayList<String> = ArrayList()
