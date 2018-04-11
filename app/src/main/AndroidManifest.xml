@@ -22,6 +22,7 @@
             android:name=".base.BaseActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".ui.activity.MainActivity" />
+        <activity android:name=".ui.activity.StatusManagerActivity"></activity>
     </application>
 
 </manifest>

@@ -33,7 +33,7 @@ public class DemoActivity extends ListActivity {
     }
 
     private DemoDetails[] demos = {
-            new DemoDetails("Kotlin练习", MainActivity.class)
+            new DemoDetails("Kotlin练习", MainActivity.class), new DemoDetails("空页面数据", StatusManagerActivity.class)
     };
 
     private static class DemoDetails {
