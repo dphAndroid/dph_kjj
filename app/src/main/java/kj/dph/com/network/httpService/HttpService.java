@@ -1,9 +1,12 @@
 package kj.dph.com.network.httpService;
 
 
+import kj.dph.com.network.entity.request.LoginReq;
 import okhttp3.ResponseBody;
+import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.Header;
+import retrofit2.http.POST;
 import retrofit2.http.Streaming;
 import retrofit2.http.Url;
 import rx.Observable;
@@ -24,5 +27,12 @@ public interface HttpService {
     @GET
     Observable<ResponseBody> download(@Header("RANGE") String start, @Url String url);
 
+    /**
+     * POST User/Base/Login 登录
+     *
+     * @return
+     */
+    @POST("Base/Login")
+    Observable<String> doBaseLogin(@Body LoginReq strList);
 
 }
