@@ -6,6 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 
+import com.zhy.adapter.recyclerview.MultiItemTypeAdapter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,6 +68,18 @@ public class StatusManagerActivity extends BaseActivity implements RefreshLayout
             list.add("转台数据" + i);
         }
         statusManagerAdapter.notifyDataSetChanged();
+
+        statusManagerAdapter.setOnItemClickListener(new MultiItemTypeAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, RecyclerView.ViewHolder holder, int position) {
+
+            }
+
+            @Override
+            public boolean onItemLongClick(View view, RecyclerView.ViewHolder holder, int position) {
+                return false;
+            }
+        });
     }
 
     public void setStatusManager() {

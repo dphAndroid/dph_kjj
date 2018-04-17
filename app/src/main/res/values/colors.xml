@@ -9,7 +9,7 @@
     <color name="text_gray1">#666666</color>
     <color name="text_gray2">#999999</color>
     <color name="dph_light_gray_specil">#cccccc</color>
-    <color name="dph_bg_gray">#cccccc</color>
+    <color name="bg_gray">#cccccc</color>
     <color name="blue">#6892ed</color>
     <color name="text_red">#CD0728</color>
     <color name="red">#FF0000</color>

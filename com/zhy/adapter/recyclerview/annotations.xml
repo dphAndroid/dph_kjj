@@ -1,0 +1,5 @@
+<root>
+    <item name='com.zhy.adapter.recyclerview.MultiItemTypeAdapter.OnItemClickListener'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

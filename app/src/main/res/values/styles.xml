@@ -27,91 +27,91 @@
     </style>
 
     <style name="text_black_38" parent="text_black">
-        <item name="android:textSize">@dimen/dph_text_38px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <style name="text_black_46" parent="text_black">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_black_42" parent="text_black">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_black_40" parent="text_black">
-        <item name="android:textSize">@dimen/dph_text_40px</item>
+        <item name="android:textSize">@dimen/x40</item>
     </style>
 
     <style name="text_white_46" parent="text_white">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_white_42" parent="text_white">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_gray2_38" parent="text_gray2">
-        <item name="android:textSize">@dimen/dph_text_38px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <style name="text_gray2_42" parent="text_gray2">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_gray2_46" parent="text_gray2">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_gray1_38" parent="text_gray1">
-        <item name="android:textSize">@dimen/dph_text_38px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <style name="text_gray1_42" parent="text_gray1">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_gray1_46" parent="text_gray1">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_base_color_54" parent="text_base_color">
-        <item name="android:textSize">@dimen/dph_text_54px</item>
+        <item name="android:textSize">@dimen/x54</item>
     </style>
 
     <style name="text_base_color_46" parent="text_base_color">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_base_color_42" parent="text_base_color">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_base_color_38" parent="text_base_color">
-        <item name="android:textSize">@dimen/dph_text_38px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <style name="text_base_color_40" parent="text_base_color">
-        <item name="android:textSize">@dimen/dph_text_40px</item>
+        <item name="android:textSize">@dimen/x40</item>
     </style>
 
     <style name="text_red_54" parent="text_red">
-        <item name="android:textSize">@dimen/dph_text_54px</item>
+        <item name="android:textSize">@dimen/x54</item>
     </style>
 
     <style name="text_red_42" parent="text_red">
-        <item name="android:textSize">@dimen/dph_text_42px</item>
+        <item name="android:textSize">@dimen/x42</item>
     </style>
 
     <style name="text_red_46" parent="text_red">
-        <item name="android:textSize">@dimen/dph_text_46px</item>
+        <item name="android:textSize">@dimen/x46</item>
     </style>
 
     <style name="text_red_38" parent="text_red">
-        <item name="android:textSize">@dimen/dph_text_38px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <style name="text_red_40" parent="text_red">
-        <item name="android:textSize">@dimen/dph_text_40px</item>
+        <item name="android:textSize">@dimen/x38</item>
     </style>
 
     <!-- 字体颜色 -->

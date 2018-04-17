@@ -9,12 +9,92 @@
         android:layout_height="wrap_content"
         android:text="Hello World!" />
 
+    <LinearLayout
+        android:background="@color/backgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/x374"
+            android:layout_height="@dimen/x300"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x95"
+                android:layout_height="@dimen/x95"
+                android:src="@mipmap/test_pic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x30"
+                android:text="在线问诊"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x46" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/x374"
+            android:layout_height="@dimen/x300"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x141"
+                android:layout_height="@dimen/x141"
+                android:src="@mipmap/test_pic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x20"
+                android:text="在线问诊"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x46" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/x374"
+            android:layout_height="@dimen/x300"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x95"
+                android:layout_height="@dimen/x95"
+                android:src="@mipmap/test_pic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x20"
+                android:text="在线问诊"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x46" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
     <kj.dph.com.widget.refreshlayout.RefreshLayout
         android:id="@+id/refreshlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dph_30px">
+        android:layout_marginTop="@dimen/x30">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_home_yygh"

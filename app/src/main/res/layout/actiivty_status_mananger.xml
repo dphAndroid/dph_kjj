@@ -30,7 +30,7 @@
         android:id="@+id/refreshlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dph_30px">
+        android:layout_marginTop="@dimen/x30">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_status_manager"

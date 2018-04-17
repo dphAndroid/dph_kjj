@@ -2,6 +2,7 @@ package kj.dph.com.ui.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.view.View;
 import android.widget.TextView;
 
 import com.zhy.adapter.recyclerview.CommonAdapter;
@@ -10,6 +11,7 @@ import com.zhy.adapter.recyclerview.base.ViewHolder;
 import java.util.List;
 
 import kj.dph.com.R;
+import kj.dph.com.util.logUtil.LogUtilYxy;
 import kj.dph.com.view.CircularImage;
 
 /**

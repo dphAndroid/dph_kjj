@@ -3,6 +3,10 @@ package kj.dph.com.ui.activity
 import android.os.Bundle
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
+import android.view.View
+import android.widget.AdapterView
+import com.zhy.adapter.recyclerview.MultiItemTypeAdapter
 import kj.dph.com.R
 import kj.dph.com.base.BaseActivity
 import kj.dph.com.ui.adapter.DemoAdapter
@@ -13,7 +17,8 @@ class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
 
 
     var list: ArrayList<String> = ArrayList()
-    var adapter: DemoAdapter ?= null
+    var adapter: DemoAdapter? = null
+    var  a = arrayOf(320,480,540,600,768,720,800,1080,1400,1440,1536)
     override fun setCustomLayout(savedInstanceState: Bundle?) {
         super.setCustomLayout(savedInstanceState)
         setLayoutView(R.layout.activity_main, "哈哈哈");
@@ -21,7 +26,7 @@ class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
 
     override fun initView() {
         super.initView()
-        adapter= DemoAdapter(this, R.layout.item_demo, list)
+        adapter = DemoAdapter(this, R.layout.item_demo, list)
         refreshlayout.setOnRefreshListener(this)
         refreshlayout.setHeaderColorSchemeColors(blue, red, green, yellow)
         refreshlayout.setFooterColorSchemeColors(blue, red, green, yellow)
@@ -32,8 +37,8 @@ class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
 
     override fun initData() {
         super.initData()
-        for (item in 0..10) {
-            list.add("张三" + item)
+        for (item in 0..a.size-1) {
+            list.add("张三" +a.get(item))
         }
         adapter?.notifyDataSetChanged()
     }
@@ -42,8 +47,8 @@ class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
         refreshlayout.postDelayed(Runnable {
             kotlin.run {
                 list.clear()
-                for (item in 0..10) {
-                    list.add("张三" + item)
+                for (item in 0..a.size-1) {
+                    list.add("张三" +a.get(item))
                 }
                 adapter?.notifyDataSetChanged()
                 refreshlayout.isHeaderRefreshing = false
@@ -54,8 +59,8 @@ class MainActivity : BaseActivity(), RefreshLayout.OnRefreshListener {
     override fun onFooterRefresh() {
         refreshlayout.postDelayed(Runnable {
             kotlin.run {
-                for (item in 10..20) {
-                    list.add("张三" + item)
+                for (item in 0..a.size-1) {
+                    list.add("张三" +a.get(item))
                 }
                 adapter?.notifyDataSetChanged()
                 refreshlayout.isFooterRefreshing = false

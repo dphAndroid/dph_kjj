@@ -7,16 +7,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dph_130px"
+        android:layout_height="@dimen/x130"
         android:background="@color/white"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/iv_back"
-            android:layout_width="@dimen/dph_32px"
-            android:layout_height="@dimen/dph_56px"
+            android:layout_width="@dimen/x32"
+            android:layout_height="@dimen/x56"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/dph_50px"
+            android:layout_marginLeft="@dimen/x50"
             android:src="@mipmap/btn_back"
             android:visibility="gone" />
 
@@ -27,44 +27,44 @@
             android:gravity="center"
             android:text="登录"
             android:textColor="@color/base_color"
-            android:textSize="@dimen/dph_text_54px" />
+            android:textSize="@dimen/x54" />
 
     </RelativeLayout>
 
     <kj.dph.com.widget.CircleImageView
-        android:layout_width="@dimen/dph_240px"
-        android:layout_height="@dimen/dph_240px"
+        android:layout_width="@dimen/x240"
+        android:layout_height="@dimen/x240"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="@dimen/dph_160px"
-        android:layout_marginTop="@dimen/dph_160px"
+        android:layout_marginBottom="@dimen/x160"
+        android:layout_marginTop="@dimen/x160"
         android:src="@mipmap/ic_launcher" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dph_180px"
+        android:layout_height="@dimen/x180"
         android:background="@color/white"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/dph_40px"
-        android:paddingRight="@dimen/dph_40px">
+        android:paddingLeft="@dimen/x40"
+        android:paddingRight="@dimen/x40">
 
         <ImageView
-            android:layout_width="@dimen/dph_40px"
-            android:layout_height="@dimen/dph_46px"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x46"
             android:src="@mipmap/ic_account" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dph_30px"
+            android:layout_marginLeft="@dimen/x30"
             android:text="账户"
             android:textColor="@color/light_black"
-            android:textSize="@dimen/dph_text_46px" />
+            android:textSize="@dimen/x46" />
 
         <EditText
             android:id="@+id/ev_account"
             style="@style/text_black_46"
-            android:layout_marginLeft="@dimen/dph_120px"
+            android:layout_marginLeft="@dimen/x120"
             android:background="@color/white"
             android:hint="请输入您的手机号"
             android:inputType="phone"
@@ -80,8 +80,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1px"
-            android:layout_marginLeft="@dimen/dph_40px"
-            android:layout_marginRight="@dimen/dph_40px"
+            android:layout_marginLeft="@dimen/x40"
+            android:layout_marginRight="@dimen/x40"
             android:background="@color/dph_line_cut"></View>
 
     </LinearLayout>
@@ -89,30 +89,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dph_180px"
+        android:layout_height="@dimen/x180"
         android:background="@color/white"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingLeft="@dimen/dph_40px"
-        android:paddingRight="@dimen/dph_40px">
+        android:paddingLeft="@dimen/x40"
+        android:paddingRight="@dimen/x40">
 
         <ImageView
-            android:layout_width="@dimen/dph_40px"
-            android:layout_height="@dimen/dph_46px"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x46"
             android:src="@mipmap/ic_account" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dph_30px"
+            android:layout_marginLeft="@dimen/x30"
             android:text="密码"
             android:textColor="@color/light_black"
-            android:textSize="@dimen/dph_text_46px" />
+            android:textSize="@dimen/x46" />
 
         <EditText
             android:id="@+id/ev_pwd"
             style="@style/text_black_46"
-            android:layout_marginLeft="@dimen/dph_120px"
+            android:layout_marginLeft="@dimen/x120"
             android:background="@color/white"
             android:hint="请输入您的密码"
             android:textColorHint="@color/dph_light_gray_specil" />
@@ -122,10 +122,10 @@
         android:id="@+id/btn_login"
         style="@style/text_black_46"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dph_160px"
-        android:layout_marginLeft="@dimen/dph_80px"
-        android:layout_marginRight="@dimen/dph_80px"
-        android:layout_marginTop="@dimen/dph_80px"
+        android:layout_height="@dimen/x160"
+        android:layout_marginLeft="@dimen/x80"
+        android:layout_marginRight="@dimen/x80"
+        android:layout_marginTop="@dimen/x80"
         android:background="@color/blue"
         android:enabled="false"
         android:text="登录" />
@@ -135,21 +135,21 @@
         android:id="@+id/btn_register"
         style="@style/text_black_46"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dph_160px"
-        android:layout_marginLeft="@dimen/dph_80px"
-        android:layout_marginRight="@dimen/dph_80px"
-        android:layout_marginTop="@dimen/dph_80px"
+        android:layout_height="@dimen/x160"
+        android:layout_marginLeft="@dimen/x80"
+        android:layout_marginRight="@dimen/x80"
+        android:layout_marginTop="@dimen/x80"
         android:text="注册" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dph_60px"
+        android:layout_marginTop="@dimen/x60"
         android:gravity="center"
         android:orientation="horizontal">
 
         <View
-            android:layout_width="@dimen/dph_80px"
+            android:layout_width="@dimen/x80"
             android:layout_height="1px"
             android:background="@color/light_black"></View>
 
@@ -157,14 +157,14 @@
             android:id="@+id/tv_forget_pwd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dph_30px"
-            android:layout_marginRight="@dimen/dph_30px"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
             android:text="忘记密码？"
             android:textColor="@color/light_black"
-            android:textSize="@dimen/dph_text_46px" />
+            android:textSize="@dimen/x46" />
 
         <View
-            android:layout_width="@dimen/dph_80px"
+            android:layout_width="@dimen/x80"
             android:layout_height="1px"
             android:background="@color/light_black"></View>
 

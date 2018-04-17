@@ -35,7 +35,8 @@ public class DemoActivity extends ListActivity {
     private DemoDetails[] demos = {
             new DemoDetails("Kotlin练习", MainActivity.class),
             new DemoDetails("空页面数据", StatusManagerActivity.class),
-            new DemoDetails("登录", LoginActivity.class)
+            new DemoDetails("登录", LoginActivity.class),
+            new DemoDetails("xml", XmlActivity.class)
     };
 
     private static class DemoDetails {
