@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="wrap_content"
-  android:padding="5dp"
-  android:layout_weight="1"
-  android:foreground="?android:attr/selectableItemBackground"
-  android:background="@color/white"
-    android:gravity="center_vertical"
-  android:orientation="vertical">
-  <TextView
-    android:id="@+id/tv_title"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:textColor="@color/black"
-      android:layout_marginTop="5dp"
-      android:text="@string/app_name"
-      android:layout_marginBottom="5dp"
-    android:textSize="16sp"/>
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/x100"
+        android:background="@mipmap/default_pic" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginTop="5dp"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 </LinearLayout>
